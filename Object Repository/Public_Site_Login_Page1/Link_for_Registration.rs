@@ -6,12 +6,12 @@
    <elementGuidId>3e278d48-4dde-4eb1-8f34-d7f792e715a0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.style_register__GLRXZ > a</value>
+         <key>XPATH</key>
+         <value>//a[@href = '/register' and (text() = 'Register' or . = 'Register')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div[2]/div[2]/div/div/a</value>
+         <key>CSS</key>
+         <value>div.style_register__GLRXZ > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

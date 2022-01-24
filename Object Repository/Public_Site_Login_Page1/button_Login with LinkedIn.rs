@@ -6,12 +6,12 @@
    <elementGuidId>aa782994-ea21-414f-a8a7-413922b6ead2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.styles_social-media__kibUX</value>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'Login with LinkedIn' or . = 'Login with LinkedIn')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='button']</value>
+         <key>CSS</key>
+         <value>button.styles_social-media__kibUX</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

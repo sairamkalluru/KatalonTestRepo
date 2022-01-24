@@ -6,12 +6,12 @@
    <elementGuidId>d7c7fa20-cb81-4b07-90a9-a4debead51b0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.style_loginText__tIUur</value>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Login' or . = 'Login')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='guestLayout']/header/div/div[2]/a[2]/span/span</value>
+         <key>CSS</key>
+         <value>span.style_loginText__tIUur</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

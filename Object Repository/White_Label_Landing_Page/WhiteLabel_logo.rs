@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>heading_Welcome Back</name>
+   <name>WhiteLabel_logo</name>
    <tag></tag>
-   <elementGuidId>d728792a-4731-4024-ab39-bb0d82f93837</elementGuidId>
+   <elementGuidId>b9d4d4e5-7f4d-438e-9d5e-c88c4578fb85</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h1[(text() = 'Welcome Back!' or . = 'Welcome Back!')]</value>
+         <key>CSS</key>
+         <value>img.style_logo__XRYPL.rounded</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[2]/header/div/div/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>src</name>
       <type>Main</type>
-      <value>Welcome Back!</value>
+      <value>/asset/platform/logoImage/fe1734c94a8f11a9f3b0fb4078ee8c657441a27a.r1633640360</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>style_logo__XRYPL rounded</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;style_loginContainer__6k_LH&quot;]/h1[1]</value>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;d-flex flex-column style_root__39Sdw&quot;]/header[@class=&quot;style_header__synj8&quot;]/div[@class=&quot;container d-flex justify-content-between align-items-center style_headerContent__2D2vY&quot;]/div[@class=&quot;p-0&quot;]/a[1]/img[@class=&quot;style_logo__XRYPL rounded&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div[2]/div[2]/div/h1</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::h1[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Welcome Back!']/parent::*</value>
+      <value>//div[@id='__next']/div[2]/header/div/div/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
+      <value>//img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[(text() = 'Welcome Back!' or . = 'Welcome Back!')]</value>
+      <value>//img[@src = '/asset/platform/logoImage/fe1734c94a8f11a9f3b0fb4078ee8c657441a27a.r1633640360']</value>
    </webElementXpaths>
 </WebElementEntity>

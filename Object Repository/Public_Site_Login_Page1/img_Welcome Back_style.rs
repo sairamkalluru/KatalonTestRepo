@@ -6,12 +6,12 @@
    <elementGuidId>54f48261-9d78-433d-a8d3-359c37e306e5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>img.style_leftImage__TxREy</value>
+         <key>XPATH</key>
+         <value>//img[@src = '/assets/images/LoginImage.png']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div[2]/div/div/img</value>
+         <key>CSS</key>
+         <value>img.style_leftImage__TxREy</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>heading_Welcome Back</name>
+   <name>White_label_Name</name>
    <tag></tag>
-   <elementGuidId>d728792a-4731-4024-ab39-bb0d82f93837</elementGuidId>
+   <elementGuidId>cc4db921-0855-4b12-b68a-536fc18e66d3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h1[(text() = 'Welcome Back!' or . = 'Welcome Back!')]</value>
+         <key>CSS</key>
+         <value>span.style_initialFormTitle__0DsyR</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[2]/div/div/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>style_initialFormTitle__0DsyR</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Welcome Back!</value>
+      <value>OCS Firsthand Advisers</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;style_loginContainer__6k_LH&quot;]/h1[1]</value>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;d-flex flex-column style_root__39Sdw&quot;]/div[@class=&quot;flex-grow-1&quot;]/div[@class=&quot;style_root__j4E0e&quot;]/div[@class=&quot;container d-flex w-100 align-items-center&quot;]/div[@class=&quot;d-flex flex-column style_heroForm__X7NwT&quot;]/span[@class=&quot;style_initialFormTitle__0DsyR&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div[2]/div[2]/div/h1</value>
+      <value>//div[@id='__next']/div[2]/div/div/div/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::h1[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Welcome Back!']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Advice'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
+      <value>//span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[(text() = 'Welcome Back!' or . = 'Welcome Back!')]</value>
+      <value>//span[(text() = 'OCS Firsthand Advisers' or . = 'OCS Firsthand Advisers')]</value>
    </webElementXpaths>
 </WebElementEntity>

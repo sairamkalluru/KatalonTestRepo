@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Text_Welcome back</name>
+   <name>Firsthand_Logo</name>
    <tag></tag>
-   <elementGuidId>b15f6d63-9664-452c-a542-d3952d0116d6</elementGuidId>
+   <elementGuidId>e5d621f7-da87-4f57-ac41-4556e588b371</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//p[(text() = 'Welcome back!' or . = 'Welcome back!')]</value>
+         <key>CSS</key>
+         <value>img.mt-1.rounded</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>p</value>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[2]/div/div/div/div/div/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>src</name>
       <type>Main</type>
-      <value>Welcome back!</value>
+      <value>/assets/images/New-FH-Logo_Light.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>100px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Logo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mt-1 rounded</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;style_loginContainer__6k_LH&quot;]/p[1]</value>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;d-flex flex-column style_root__39Sdw&quot;]/div[@class=&quot;flex-grow-1&quot;]/div[@class=&quot;style_root__j4E0e&quot;]/div[@class=&quot;container d-flex w-100 align-items-center&quot;]/div[@class=&quot;d-flex flex-column style_heroForm__X7NwT&quot;]/div[@class=&quot;d-flex justify-content-start my-3&quot;]/a[@class=&quot;style_root__VG3S4 mr-2&quot;]/img[@class=&quot;mt-1 rounded&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div[2]/div[2]/div/p</value>
+      <value>//div[@id='__next']/div[2]/div/div/div/div/div/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:img</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hi, Sairam!'])[1]/following::p[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::p[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::p[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Welcome back!']/parent::*</value>
+      <value>//img[@alt='Logo']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p</value>
+      <value>//div/div/div/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = 'Welcome back!' or . = 'Welcome back!')]</value>
+      <value>//img[@src = '/assets/images/New-FH-Logo_Light.svg' and @alt = 'Logo']</value>
    </webElementXpaths>
 </WebElementEntity>
