@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>UAT</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Product URL</description>
+      <initValue>'https://uat.firsthand.co/'</initValue>
+      <name>TestURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'skalluru@infobase.com'</initValue>
+      <name>UserName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kGf9oeBRmM3GBbsjt8RKGA=='</initValue>
+      <name>Passowrd</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
