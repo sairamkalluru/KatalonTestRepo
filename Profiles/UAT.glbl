@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Product URL</description>
-      <initValue>'https://rsph.uat.firsthand.co/'</initValue>
+      <initValue>'https://uat.firsthand.co/'</initValue>
       <name>TestURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
